@@ -17,6 +17,11 @@ public import LeanPool.ToposTheoreticBridges.Examples.Monoids
 public import LeanPool.ToposTheoreticBridges.Examples.Preorders
 public import LeanPool.ToposTheoreticBridges.Examples.Combinatorics
 public import LeanPool.ToposTheoreticBridges.Examples.EssentialPoints
+public import LeanPool.ToposTheoreticBridges.Examples.Quivers
+public import LeanPool.ToposTheoreticBridges.Examples.FiniteMonoids
+public import LeanPool.ToposTheoreticBridges.Examples.NatTopologies
+public import LeanPool.ToposTheoreticBridges.Examples.Corners
+public import LeanPool.ToposTheoreticBridges.Examples.KaroubiMonoid
 
 /-!
 # Topos-theoretic bridges for presheaf topoi
@@ -68,7 +73,12 @@ presheaf topoi with their characterisations on the site:
   monoids (Boolean and De Morgan topoi of `M`-sets, automata), preorders (confluence, Alexandrov
   spaces, Morita equivalence of preorders), combinatorial presheaf topoi (graphs, simplicial
   sets, the topos of trees) and the essential points of topoi of `M`-sets (idempotents, ranks of
-  idempotent matrices).
+  idempotent matrices); quivers (De Morgan iff every vertex has at most one incoming arrow),
+  finite monoids (De Morgan iff there is a unique minimal right ideal) and transformation
+  monoids with a constant map, the three Grothendieck topologies on `(ℕ, +)` and the sheaves of
+  the final one, corners `eMe` (Morita equivalent to `M` when `r * e * s = 1`) and the idempotent
+  maps of a finite set, classified up to isomorphism in the Karoubi envelope by the size of their
+  images.
 
 These are « bridges » in O. Caramello's sense: an invariant of the topos, read on two
 presentations, gives an equivalence of properties of the presentations. The card's source,
