@@ -179,6 +179,55 @@ main_results:
   informal: For the monoid of n by n matrices over a field, the isomorphism classes of essential
     points of the topos of right sets are in bijection with 0, ..., n, by the rank of the
     corresponding idempotent matrix.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.rightOreCondition_paths_iff
+  informal: The free category on a quiver satisfies the right Ore condition exactly when every
+    vertex has at most one incoming arrow.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_paths_iff
+  informal: The topos of presheaves on the free category of a quiver is De Morgan exactly when
+    every vertex of the quiver has at most one incoming arrow.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isBooleanTopos_paths_iff
+  informal: The topos of presheaves on the free category of a quiver is Boolean exactly when the
+    quiver has no arrows.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.forall_exists_mul_eq_mul_iff_existsUnique_minimal
+  informal: Any two elements a, b of a finite monoid M have a common right multiple a * c = b * d
+    exactly when M has a unique minimal right ideal.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_singleObj_iff_existsUnique_minimal
+  informal: The topos of right M-sets of a finite monoid M is De Morgan exactly when M has a
+    unique minimal right ideal.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_singleObj_mulOpposite_of_const_mem
+  informal: For a monoid S of maps from a set to itself containing a constant map, the topos of
+    left S-sets is De Morgan.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.not_isDeMorganTopos_singleObj_of_const_mem
+  informal: For a monoid S of maps from a set with at least two elements to itself, containing a
+    constant map and acting transitively, the topos of right S-sets is not De Morgan.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.NatCat.eq_bot_or_eq_finalTopology_or_eq_top
+  informal: Every Grothendieck topology on the one-object category of the additive monoid of
+    natural numbers is the trivial topology, the topology of all non-empty sieves, or the
+    topology of all sieves.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.NatCat.nat_card_grothendieckTopology_natCat
+  informal: The one-object category of the additive monoid of natural numbers has exactly three
+    Grothendieck topologies.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.NatCat.isSheaf_finalTopology_iff
+  informal: A set with an endomorphism, as a presheaf on the additive monoid of natural numbers,
+    is a sheaf for the topology of non-empty sieves exactly when the endomorphism is bijective.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.forall_exists_mul_eq_mul_iff_cornerMonoid
+  informal: Let e be an idempotent of a monoid M with r * e * s = 1. Any two elements of M have a
+    common right multiple exactly when any two elements of the corner monoid eMe do.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.moritaEquivalentCat_cornerMonoid
+  informal: If e is an idempotent of a monoid M with r * e * s = 1, the topoi of right sets over
+    the corner monoid eMe and over M are equivalent.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.forall_isUnit_iff_cornerMonoid
+  informal: If e is an idempotent of a monoid M with r * e * s = 1, then M is a group exactly when
+    its corner monoid eMe is a group.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.karoubiRel_iff_nonempty_equiv_range
+  informal: Two idempotent maps e, f from a set to itself satisfy f * a * e = a, e * b * f = b,
+    b * a = e and a * b = f for some maps a, b exactly when their images are in bijection.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.nonempty_karoubiMk_iso_iff_card_eq
+  informal: Two idempotent maps of a finite set Fin n give isomorphic objects of the Karoubi
+    envelope of the monoid of maps of Fin n exactly when their images have the same cardinality.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.karoubiClassesEquivFin
+  informal: The isomorphism classes of the Karoubi envelope of the monoid of maps of a set with
+    n + 1 elements are in bijection with Fin (n + 1), by the cardinality of the image minus one.
 - declaration: LeanPool.ToposTheoreticBridges.Examples.paths_isIso_iff_eq_eqToHom
   informal: In the free category of a quiver, every idempotent is an identity and the only
     isomorphisms are the identities; hence the free category is idempotent complete and equivalent

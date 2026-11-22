@@ -38,7 +38,9 @@ contains the morphisms of length at least `m`, for some `m` such that none of
   unique `Z`, the set of vertices `v` at which `lengthSieve (op v) 1` does not cover;
 * `topologyEquiv : Option (Set (ZMod n)) ≃ GrothendieckTopology (CyclicSite n)`;
 * `card_grothendieckTopology`: there are exactly `2 ^ n + 1` Grothendieck topologies, and three
-  for the monoid `ℕ` seen as the free category on one loop (`card_grothendieckTopology_one`).
+  for the monoid `ℕ` seen as the free category on one loop (`card_grothendieckTopology_one`;
+  `LeanPool.ToposTheoreticBridges.Examples.NatTopologies` treats the one-object category of
+  `(ℕ, +)` directly).
 * `isSheaf_topologyOf_iff`: a representation of the cyclic quiver is a sheaf for `topologyOf Z`
   exactly when the maps attached to the arrows out of the vertices outside `Z` are bijective.
 

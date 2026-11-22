@@ -55,11 +55,16 @@ public import LeanPool.ToposTheoreticBridges.ClassifyingTopoi.Unconditional
 public import LeanPool.ToposTheoreticBridges.DeMorgan
 public import LeanPool.ToposTheoreticBridges.EssentialPoints
 public import LeanPool.ToposTheoreticBridges.Examples.Combinatorics
+public import LeanPool.ToposTheoreticBridges.Examples.Corners
 public import LeanPool.ToposTheoreticBridges.Examples.EssentialPoints
+public import LeanPool.ToposTheoreticBridges.Examples.FiniteMonoids
+public import LeanPool.ToposTheoreticBridges.Examples.KaroubiMonoid
 public import LeanPool.ToposTheoreticBridges.Examples.Monoids
+public import LeanPool.ToposTheoreticBridges.Examples.NatTopologies
 public import LeanPool.ToposTheoreticBridges.Examples.Preorders
-public import LeanPool.ToposTheoreticBridges.Examples.QuiversMorita
+public import LeanPool.ToposTheoreticBridges.Examples.Quivers
 public import LeanPool.ToposTheoreticBridges.Examples.QuiversCyclic
+public import LeanPool.ToposTheoreticBridges.Examples.QuiversMorita
 public import LeanPool.ToposTheoreticBridges.Morita
 public import LeanPool.ToposTheoreticBridges.Sites
 public import LeanPool.ToposTheoreticBridges.Subpresheaf
