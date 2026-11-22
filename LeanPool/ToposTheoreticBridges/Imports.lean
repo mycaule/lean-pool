@@ -54,6 +54,10 @@ public import LeanPool.ToposTheoreticBridges.ClassifyingTopoi.TypeSemantics
 public import LeanPool.ToposTheoreticBridges.ClassifyingTopoi.Unconditional
 public import LeanPool.ToposTheoreticBridges.DeMorgan
 public import LeanPool.ToposTheoreticBridges.EssentialPoints
+public import LeanPool.ToposTheoreticBridges.Examples.Combinatorics
+public import LeanPool.ToposTheoreticBridges.Examples.EssentialPoints
+public import LeanPool.ToposTheoreticBridges.Examples.Monoids
+public import LeanPool.ToposTheoreticBridges.Examples.Preorders
 public import LeanPool.ToposTheoreticBridges.Morita
 public import LeanPool.ToposTheoreticBridges.Sites
 public import LeanPool.ToposTheoreticBridges.Subpresheaf

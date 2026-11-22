@@ -146,6 +146,39 @@ main_results:
 - declaration: LeanPool.ClassifyingTopoi.moritaEquivalent_torsorTheory_iff
   informal: The geometric theories of G-torsors and of H-torsors are Morita equivalent exactly
     when the groups G and H are isomorphic.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isBooleanTopos_singleObj_iff
+  informal: The topos of right M-sets of a monoid M is Boolean exactly when every element of M
+    is invertible.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_singleObj_iff
+  informal: The topos of right M-sets of a monoid M is De Morgan exactly when any two elements
+    a, b of M have a common right multiple a * c = b * d.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.not_isDeMorganTopos_freeMonoid_two
+  informal: The topos of deterministic automata on a two-letter alphabet, the right sets over
+    the free monoid on two letters, is not De Morgan.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_functor_preorder_iff
+  informal: For a preorder P, the topos of functors from P to sets is De Morgan exactly when P
+    is confluent, that is, two elements above a common element have a common upper bound.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.extremallyDisconnected_iff_confluent
+  informal: The Alexandrov topology of a preorder, whose open sets are the upper sets, is
+    extremally disconnected exactly when the preorder is confluent.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.moritaEquivalentCat_preorder_iff_antisymmetrization
+  informal: Two preorders have equivalent presheaf topoi exactly when their antisymmetrizations
+    are order isomorphic.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.not_isDeMorganTopos_graphs
+  informal: The topos of directed graphs, presheaves on two parallel arrows, is not De Morgan.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.not_isDeMorganTopos_simplicialSets
+  informal: The topos of simplicial sets is not De Morgan.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.isDeMorganTopos_treeTopos
+  informal: The topos of trees, presheaves on the natural numbers ordered by size, is De Morgan;
+    it is not Boolean.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.nonempty_essentialPoint_iso_iff
+  informal: The essential points of the topos of right M-sets attached to idempotents e and f of
+    M are isomorphic exactly when there are a, b in M with f * a * e = a, e * b * f = b, b * a = e
+    and a * b = f.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.essentialPointClassesEquivFin
+  informal: For the monoid of n by n matrices over a field, the isomorphism classes of essential
+    points of the topos of right sets are in bijection with 0, ..., n, by the rank of the
+    corresponding idempotent matrix.
 tags:
 - topos-theory
 - classifying-topoi
