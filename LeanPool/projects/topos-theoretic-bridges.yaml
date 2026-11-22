@@ -202,6 +202,10 @@ main_results:
   informal: For n at least 1, the free category of the cyclic quiver on n vertices carries
     exactly 2 ^ n + 1 Grothendieck topologies on its opposite; for one loop, the monoid of natural
     numbers, there are three.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.CyclicSite.isSheaf_topologyOf_iff
+  informal: A representation of the cyclic quiver in sets is a sheaf for the topology attached
+    to a set Z of vertices exactly when the maps attached to the arrows out of the vertices
+    outside Z are bijective.
 tags:
 - topos-theory
 - classifying-topoi
