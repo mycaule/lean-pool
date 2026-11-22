@@ -179,6 +179,29 @@ main_results:
   informal: For the monoid of n by n matrices over a field, the isomorphism classes of essential
     points of the topos of right sets are in bijection with 0, ..., n, by the rank of the
     corresponding idempotent matrix.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.paths_isIso_iff_eq_eqToHom
+  informal: In the free category of a quiver, every idempotent is an identity and the only
+    isomorphisms are the identities; hence the free category is idempotent complete and equivalent
+    to its Karoubi envelope.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.moritaEquivalentCat_paths_iff
+  informal: Two quivers have equivalent presheaf topoi on their free categories, or equivalent
+    categories of representations in sets, exactly when they are isomorphic as quivers (a
+    bijection of vertices with bijections of the arrows between corresponding vertices).
+- declaration: LeanPool.ToposTheoreticBridges.Examples.nonempty_iso_iff_essentialPointVertex_eq
+  informal: The essential points of the presheaf topos of the free category of a quiver form a
+    category equivalent to the opposite of the free category; two essential points are
+    isomorphic exactly when they come from the same vertex, and every essential point is
+    isomorphic to the evaluation at a vertex.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.CyclicSite.eq_top_or_eq_topologyOf
+  informal: On the opposite of the free category of the cyclic quiver with vertices Z/nZ and
+    arrows i to i + 1 (whose presheaves are the representations of the quiver), every
+    Grothendieck topology is either the degenerate one or, for a unique set Z of vertices, the
+    topology in which the sieve of the paths of length at least k out of v covers exactly when
+    the distance from v to the next element of Z going forward is at least k.
+- declaration: LeanPool.ToposTheoreticBridges.Examples.CyclicSite.card_grothendieckTopology
+  informal: For n at least 1, the free category of the cyclic quiver on n vertices carries
+    exactly 2 ^ n + 1 Grothendieck topologies on its opposite; for one loop, the monoid of natural
+    numbers, there are three.
 tags:
 - topos-theory
 - classifying-topoi
